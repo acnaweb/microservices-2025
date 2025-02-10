@@ -1,0 +1,42 @@
+@startuml
+
+skinparam linetype ortho
+
+entity "pacientes" as paciente {
+  *id : number <<generated>>
+  --
+  *nome : text
+  endereco : text
+  bairro: text
+  email: text
+  telefone_completo: text
+  *data_nascimento: date
+  *created_at: datetime
+  *updated_at: datetime
+}
+
+entity "profissionais" as profissional {
+  *id : number <<generated>>
+  --
+  *nome: text
+  *especialidade: text
+  valor_hora: number
+  *created_at: datetime
+  *updated_at: datetime
+}
+
+entity "consultas" as consulta {
+  *id : number <<generated>>
+  --
+  *profissional_id : number <<FK>>
+  *paciente_id : number <<FK>>
+  *data_consulta: datetime
+  *status_consulta: enum
+  quantidade_horas: number
+  valor_consulta: number
+}
+
+paciente ||--o{ consulta
+profissional ||--o{ consulta
+
+@enduml
