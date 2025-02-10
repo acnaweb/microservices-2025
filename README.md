@@ -48,6 +48,11 @@
 
 ### Plano de Estudo
 
+- Conteinerização
+    - [Docker](https://www.docker.com/)
+    - [Docker/Playground](https://labs.play-with-docker.com/)
+    - [Docker Hub](https://hub.docker.com/)
+
 - Versionamento de Código
     - [Github](https://github.com/)
     - [Git Client](https://www.alura.com.br/conteudo/git-github-controle-de-versao--amp)
@@ -82,18 +87,14 @@
     - [Spring profile](https://docs.spring.io/spring-boot/docs/1.2.0.M1/reference/html/boot-features-profiles.html)
     - [Spring Starters](https://docs.spring.io/spring-boot/docs/current/reference/html/using.html#using.build-systems.starters)
 
-- MVC
-    - [MVC](/conceitos/mvc.md)
-    - Spring Boot MVC    
-    - [Thymeleaf](https://www.thymeleaf.org/)
 - Restful API
     - [API Rest](https://blog.betrybe.com/desenvolvimento-web/api-rest-tudo-sobre/)
-    - JSON Server
-    - JSON
+    - [JSON Server](https://www.npmjs.com/package/json-server)
+    - [JSON](https://www.json.org/json-en.html)
     - [Json Path](https://jsonpath.com/)
-    - Postman
+    - [Postman](https://www.postman.com/)
     - [Arquitetura de Microserviços](https://microservices.io/)
-    - Spring Boot API    
+    - [Spring Boot API](https://spring.io/guides/tutorials/rest)    
     - Cache 
     - [DTO Pattern](https://www.baeldung.com/java-dto-pattern)
     - Mapeamento com ModelMapper
@@ -104,12 +105,7 @@
 
 - Produtividade
     - [Lombok](https://projectlombok.org/)
-
-- Conteinerização
-    - [Docker](https://www.docker.com/)
-    - [Docker/Playground](https://labs.play-with-docker.com/)
-    - [Docker Hub](https://hub.docker.com/)
-    
+    - 
 - DevOps
     - [CI/CD](https://codefresh.io/learn/ci-cd/7-ci-cd-concepts-you-must-know/)
     - [Teste unitários](https://junit.org/junit5/)
@@ -117,14 +113,19 @@
 
 - Cloud
     - Azure
-    - Azure Web App   
-
+    - Azure Web App
+      
 - Java
     - [Java Method Reference](https://www.baeldung.com/java-method-references)         
     - [Data/hora calendar/simpledateformat](https://www.devmedia.com.br/trabalhando-com-as-classes-date-calendar-e-simpledateformat-em-java/27401)
     - [Data/hora date](https://www.w3schools.com/java/java_date.asp)
     - [Data/hora datetime](https://www.baeldung.com/java-8-date-time-intro)
-
+      
+- MVC
+    - [MVC](/conceitos/mvc.md)
+    - Spring Boot MVC    
+    - [Thymeleaf](https://www.thymeleaf.org/)
+      
 ### Cursos Alura
 
 #### Java e Persistencia
