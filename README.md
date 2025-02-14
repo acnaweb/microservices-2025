@@ -1,4 +1,4 @@
-# SOA - Microservices and Web Engineering
+# Arquitetura Orientadas a Serviços (SOA) & Microservices and Web Engineering
 
 ### [Apresentações](/apresentacao.md)
 
@@ -123,8 +123,7 @@
       
 - MVC
     - [MVC](/conceitos/mvc.md)
-    - Spring Boot MVC    
-    - [Thymeleaf](https://www.thymeleaf.org/)
+    - Spring Boot MVC        
       
 ### Cursos Alura
 
