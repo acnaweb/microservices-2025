@@ -1,16 +1,38 @@
-# Arquitetura Orientadas a Serviços (SOA) & Microservices and Web Engineering
+# SOA - Microservices and Web Engineering
 
 ### [Apresentações](/apresentacao.md)
 
+## Aulas
+
+### Criar aplicação Java Spring Boot        
+
+- [Spring Initialzr](https://start.spring.io/) é utilizado para criar projetos com Sprint Boot
+
+- ![Spring Initializr - Setup](/assets/img/spring_initializar_setup.png "Spring Initializr - Setup")
+
+- ![Spring Initializr - Add Dependencies](/assets/img/spring_initializar_add_dependencies.png "Spring Initializr - Add Dependencies")
+
+- ![Spring Initializr - Spring Web](/assets/img/spring_initializar_web_spring.png "Spring Initializr - Spring Web")
+
+### Criar repositório no Github
+
+    - https://github.com/acnaweb/git
+
+### Sobre API 
+
+    - https://github.com/acnaweb/api    
+
 ----
 
-### Projetos
+## Projetos
 
 | Repositório | 
 |----|
 | [Repositório de conteúdos e acompanhamento de aulas](https://github.com/acnaweb/microservices-2025) |
 
-### Objetivos do Curso
+
+
+## Objetivos do Curso
 
 - Desenvolver aplicação RESTful API
     - Spring Boot
@@ -87,6 +109,10 @@
     - [Spring profile](https://docs.spring.io/spring-boot/docs/1.2.0.M1/reference/html/boot-features-profiles.html)
     - [Spring Starters](https://docs.spring.io/spring-boot/docs/current/reference/html/using.html#using.build-systems.starters)
 
+- MVC
+    - [MVC](/conceitos/mvc.md)
+    - Spring Boot MVC    
+    - [Thymeleaf](https://www.thymeleaf.org/)
 - Restful API
     - [API Rest](https://blog.betrybe.com/desenvolvimento-web/api-rest-tudo-sobre/)
     - [JSON Server](https://www.npmjs.com/package/json-server)
