@@ -16,11 +16,11 @@
 
 ### Criar repositório no Github
 
-    - https://github.com/acnaweb/git
+- https://github.com/acnaweb/git
 
 ### Sobre API 
 
-    - https://github.com/acnaweb/api    
+- https://github.com/acnaweb/api    
 
 ----
 
