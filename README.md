@@ -1,7 +1,7 @@
 # SOA - Microservices and Web Engineering
 
 ### [Apresentações](/apresentacao.md)
-
+---
 ## Projetos
 
 | Repositório | 
@@ -10,11 +10,30 @@
 | [Git](https://github.com/acnaweb/git) |
 | [API](https://github.com/acnaweb/api) |
 | [E-commerce](https://github.com/acnaweb/ecommerce) |
+| [Turma 3SIR](https://github.com/acnaweb/study-apir) |
 
-## Current
+### Github - Token
+
+1 - Clonar seu (ou o meu) repositório:
+
+```
+git clone https://github.com/acnaweb/study-apir.git
+cd study-apir
+code  .
+```
+
+2 - Instalar extensão Java no VS Code
+
+3 - Abrir Postman
+
+4 - Logar no Github.com e obter token
+```
+Perfil > Settings
+- Developer Settings
+- PAT > Tokens (classic)
+```
 
 --- 
-
 #### Criar aplicação Java Spring Boot        
 
 - [Spring Initialzr](https://start.spring.io/) é utilizado para criar projetos com Sprint Boot
