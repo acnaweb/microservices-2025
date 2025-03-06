@@ -12,7 +12,7 @@
 | [E-commerce](https://github.com/acnaweb/ecommerce) |
 | [Turma 3SIR](https://github.com/acnaweb/study-apir) |
 
-### Github - Token
+### Toda aula :)
 
 1 - Clonar seu (ou o meu) repositório:
 
@@ -34,7 +34,7 @@ Perfil > Settings
 ```
 
 --- 
-#### Criar aplicação Java Spring Boot        
+### Criar aplicação Java Spring Boot        
 
 - [Spring Initialzr](https://start.spring.io/) é utilizado para criar projetos com Sprint Boot
 
@@ -45,8 +45,7 @@ Perfil > Settings
 ![Spring Initializr - Spring Web](/assets/img/spring_initializar_web_spring.png "Spring Initializr - Spring Web")
 
 --- 
-
-#### Maven 
+### Maven 
 
 - Executar a aplicação
   
