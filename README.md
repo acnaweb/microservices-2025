@@ -18,8 +18,8 @@
 1 - Clonar seu (ou o meu) repositório:
 
 ```
-git clone https://github.com/acnaweb/study-apir.git
-cd study-apir
+git clone https://github.com/acnaweb/study-api.git
+cd study-api
 code  .
 ```
 
