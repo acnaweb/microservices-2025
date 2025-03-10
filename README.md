@@ -11,6 +11,7 @@
 | [API](https://github.com/acnaweb/api) |
 | [E-commerce](https://github.com/acnaweb/ecommerce) |
 | [Turma 3SIR](https://github.com/acnaweb/study-apir) |
+| [Turma 3ESW](https://github.com/acnaweb/study-apiw ) |
 
 ### Toda aula :)
 
