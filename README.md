@@ -12,6 +12,7 @@
 | [E-commerce](https://github.com/acnaweb/ecommerce) |
 | [Turma 3SIR](https://github.com/acnaweb/study-apir) |
 | [Turma 3ESW](https://github.com/acnaweb/study-apiw ) |
+| [Turma 3ESX](https://github.com/acnaweb/study-apix ) |
 
 ### Toda aula :)
 
@@ -33,6 +34,14 @@ Perfil > Settings
 - Developer Settings
 - PAT > Tokens (classic)
 ```
+--- 
+### Maven 
+
+- Executar a aplicação
+  
+```sh 
+mvn spring-boot:run
+```
 
 --- 
 ### Criar aplicação Java Spring Boot        
@@ -45,14 +54,6 @@ Perfil > Settings
 
 ![Spring Initializr - Spring Web](/assets/img/spring_initializar_web_spring.png "Spring Initializr - Spring Web")
 
---- 
-### Maven 
-
-- Executar a aplicação
-  
-```sh 
-mvn spring-boot:run
-```
 
 --- 
 
