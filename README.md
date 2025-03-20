@@ -34,6 +34,13 @@ Perfil > Settings
 - Developer Settings
 - PAT > Tokens (classic)
 ```
+5 - Docker
+
+* Menu Iniciar (pesquisar por Docker)
+  - Iniciar *Start Docker Service*
+  - Clicar em *Docker Desktop*
+
+
 --- 
 ### Databases (Docker)
 
