@@ -1,8 +1,10 @@
 @startuml diagram
 
+title MER - Sistema de Agenda de Consultas
+
 skinparam linetype ortho
 
-entity "pacientes" as paciente {
+entity "paciente" as paciente {
   *id : number <<generated>>
   --
   *nome : text
@@ -15,7 +17,7 @@ entity "pacientes" as paciente {
   *updated_at: datetime
 }
 
-entity "profissionais" as profissional {
+entity "profissional" as profissional {
   *id : number <<generated>>
   --
   *nome: text
@@ -25,7 +27,7 @@ entity "profissionais" as profissional {
   *updated_at: datetime
 }
 
-entity "consultas" as consulta {
+entity "consulta" as consulta {
   *id : number <<generated>>
   --
   *profissional_id : number <<FK>>

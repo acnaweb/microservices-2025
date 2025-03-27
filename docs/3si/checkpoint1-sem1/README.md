@@ -4,9 +4,9 @@
 
 ### Atividades  
 
-#### Modelo Entidade Relacionamento
+Observe o  Modelo Entidade Relacionamento (MER) abaixo e siga as instruções a partir do item 1.
 
-![](out/docs/3es/checkpoint1-sem1/agenda/diagram.png)
+   ![](/out/docs/3si/checkpoint1-sem1/agenda/diagram.png)
 
 #### 1. (1 ponto) - Criar um projeto Java usando Spring Boot:  
 
