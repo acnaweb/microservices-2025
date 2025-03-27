@@ -2,6 +2,11 @@
 
 ## Check Point 1/1º semestre/2025 - Prof. Antonio Carlos de Lima Júnior  
 
+### Instruções Gerais
+
+- Atividade a ser desenvolvida em 1 ou 2 pessoas.
+- Entrega individual.
+
 ### Atividades  
 
 Observe o Modelo Entidade Relacionamento (MER) e o Diagrama de Sequencia abaixo e siga as instruções a partir do item 1.
@@ -30,22 +35,22 @@ Utilizar o [Spring Initializr](https://start.spring.io/) para criação do proje
   - Spring DevTools  
   - Documentação Swagger - https://springdoc.org/  
 
-#### Implementar a(s) controller(s) e DTOs com base no Diagrama de Sequencia e MER.
+#### 2. (4 pontos) - Implementar a(s) controller(s) e DTOs com base no Diagrama de Sequencia e MER.
 
-#### Implementar a(s) services(s) com base no Diagrama de Sequencia e MER.
+#### 3. (4 pontos) - Implementar a(s) services(s) com base no Diagrama de Sequencia e MER.
 
-#### 3. (1 ponto) - Criar a documentação para o repositório criado.
+#### 4. (1 ponto) - Criar a documentação para o repositório criado.
 
 Utilizar o README.md de https://github.com/acnaweb/study-apir/blob/feature/uc-service-crud/README.md como base.
 
-Entregáveis  
+### Instruções de Entrega  
 
-a. GitHub (para cada membro)  
-   - Nome do repositório: checkpoint1  
+#### a. GitHub (para cada membro)  
 
-b. Arquivo para área de entrega de trabalhos  
-   - Arquivo txt contendo as seguintes informações no exemplo abaixo:  
+   - Nome do repositório: *checkpoint1*
 
-Aluno(a)      Github  
-Maria         https://github.com/maria/checkpoint1  
-João          https://github.com/joao/checkpoint1  
+#### b. Arquivo para upload no Portal do Aluno/área de entrega de trabalhos.
+
+   - Arquivo txt contendo a url do repositório com o código do projeto atualizado.
+
+> Repositório: https://github.com/<nome_do_usuario>>/checkpoint1  
