@@ -48,7 +48,7 @@ Utilizar o README.md de https://github.com/acnaweb/study-apir/blob/feature/uc-se
 
    - Nome do repositório: *checkpoint1*
 
-#### b. Arquivo para upload no Portal do Aluno/área de entrega de trabalhos.
+#### b. Upload no Portal do Aluno/área de entrega de trabalhos.
 
    - Arquivo txt contendo a url do repositório com o código do projeto atualizado.
 
