@@ -6,14 +6,13 @@
 
 - Atividade a ser desenvolvida em 1 ou 2 pessoas.
 - Entrega individual.
-
-### Atividades  
-
-Observe o Modelo Entidade Relacionamento (MER) e o Diagrama de Sequencia abaixo e siga as instruções a partir do item 1.
+- Observe o Modelo Entidade Relacionamento (MER) e o Diagrama de Sequencia abaixo e siga as instruções a partir do item 1.
 
    ![](/out/docs/3si/checkpoint1-sem1/mer/diagram.png)
 
    ![](/out/docs/3si/checkpoint1-sem1/sequence/diagram.png)
+
+### Atividades 
 
 #### 1. (1 ponto) - Criar projeto Java usando Spring Boot:  
 
