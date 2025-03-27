@@ -4,11 +4,15 @@
 
 ### Atividades  
 
-Observe o  Modelo Entidade Relacionamento (MER) abaixo e siga as instruções a partir do item 1.
+Observe o Modelo Entidade Relacionamento (MER) e o Diagrama de Sequencia abaixo e siga as instruções a partir do item 1.
 
-   ![](/out/docs/3si/checkpoint1-sem1/agenda/diagram.png)
+   ![](/out/docs/3si/checkpoint1-sem1/mer/diagram.png)
 
-#### 1. (1 ponto) - Criar um projeto Java usando Spring Boot:  
+   ![](/out/docs/3si/checkpoint1-sem1/sequence/diagram.png)
+
+#### 1. (1 ponto) - Criar projeto Java usando Spring Boot:  
+
+Utilizar o [Spring Initializr](https://start.spring.io/) para criação do projeto.
 
 - Project: Maven Project  
 - Language: Java  
@@ -26,58 +30,22 @@ Observe o  Modelo Entidade Relacionamento (MER) abaixo e siga as instruções a 
   - Spring DevTools  
   - Documentação Swagger - https://springdoc.org/  
 
-#### 2. (1 ponto) - Criar o projeto.
+#### Implementar a(s) controller(s) e DTOs com base no Diagrama de Sequencia e MER.
 
-Utilizar o [Spring Initializr](https://start.spring.io/) para criação do projeto.
+#### Implementar a(s) services(s) com base no Diagrama de Sequencia e MER.
 
-#### 3. (2 pontos) - Criar a documentação para o repositório.
+#### 3. (1 ponto) - Criar a documentação para o repositório criado.
 
 Utilizar o README.md de https://github.com/acnaweb/study-apir/blob/feature/uc-service-crud/README.md como base.
 
-
-
-3. (2 pontos) - Implementar um endpoint GET /ping  
-- Ao consumir o endpoint /ping a aplicação deverá retornar "pong"  
-
-4. (3 pontos) - Criar o respectivo Dockerfile  
-O Dockerfile deverá conter as instruções para compilação e execução da aplicação.  
-
-FROM maven:3.8.7-openjdk-18-slim AS build  
-RUN mkdir /opt/app  
-COPY . /opt/app  
-WORKDIR /opt/app  
-RUN mvn clean package  
-
-FROM eclipse-temurin:18-jre-alpine  
-RUN mkdir /opt/app  
-COPY --from=build /opt/app/target/app.jar /opt/app/app.jar  
-WORKDIR /opt/app  
-ENV PROFILE=dev  
-EXPOSE 8080  
-ENTRYPOINT ["java", "-jar", "app.jar"]  
-
-5. (2 pontos) - Imagem no Docker Hub  
-- Upload da imagem no Docker Hub do respectivo membro.  
-- Nome do repositório: fiap-checkpoint1  
-- Tag: latest  
-
 Entregáveis  
 
-1. GitHub (para cada membro)  
-   - Nome do repositório: fiap-checkpoint1-sem1  
+a. GitHub (para cada membro)  
+   - Nome do repositório: checkpoint1  
 
-2. Docker Hub (para cada membro)  
-   - Nome do repositório: fiap-checkpoint1-sem1  
-
-3. Arquivo para área de entrega de trabalhos  
+b. Arquivo para área de entrega de trabalhos  
    - Arquivo txt contendo as seguintes informações no exemplo abaixo:  
 
 Aluno(a)      Github  
-Maria         https://github.com/maria/fiap-checkpoint1-sem1  
-João          https://github.com/joao/fiap-checkpoint1-sem1  
-
-Links úteis:  
-- https://springdoc.org/  
-- https://start.spring.io/  
-- https://github.com/maria/fiap-checkpoint1-sem1  
-- https://github.com/joao/fiap-checkpoint1-sem1  
+Maria         https://github.com/maria/checkpoint1  
+João          https://github.com/joao/checkpoint1  

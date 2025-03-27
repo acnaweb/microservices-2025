@@ -1,0 +1,71 @@
+@startuml diagram
+
+title Diagrama de Sequencia - Sistema de Agenda de Consultas
+
+control Usuario
+control Frontend
+control PacienteController
+control PacienteService
+
+== Criar Paciente ==
+Usuario -> Frontend: Solicita criação de paciente
+Frontend -> PacienteController: POST /pacientes (PacienteRequestCreate)
+PacienteController -> PacienteService: createPaciente(PacienteRequestCreate)
+PacienteService --> PacienteController: Retorna Paciente
+PacienteController --> Frontend: Retorna Paciente + 201 Created
+Frontend --> Usuario: Confirma criação
+
+== Atualizar Paciente ==
+Usuario -> Frontend: Solicita atualização de Paciente
+Frontend -> PacienteController: PUT /pacientes/{id} (PacienteRequestUpdate)
+PacienteController -> PacienteService: updatePaciente(id, PacienteRequestUpdate)
+alt Paciente encontrado
+    PacienteService -> PacienteService: Atualiza paciente
+    PacienteService --> PacienteController: Retorna Paciente
+    PacienteController --> Frontend: Retorna Paciente + 200 OK
+    Frontend --> Usuario: Confirma alteração
+else Paciente não encontrado
+    PacienteService --> PacienteController: Retorna null (Optional)
+    PacienteController --> Frontend: Retorna erro + 404 Not Found
+    Frontend --> Usuario: Exibe mensagem "Paciente não encontrado"
+end
+
+== Deletar Paciente ==
+Usuario -> Frontend: Solicita remoção de Paciente
+Frontend -> PacienteController: DELETE /pacientes/{id}
+PacienteController -> PacienteService: deletePaciente(id)
+alt Paciente encontrado
+    PacienteService -> PacienteService: Deleta paciente
+    PacienteService --> PacienteController: Retorna True
+    PacienteController --> Frontend: Retorna sucesso + 204 Sem conteúdo)
+    Frontend --> Usuario: Confirma exclusão
+else Paciente não encontrado
+    PacienteService --> PacienteController: Retorna False
+    PacienteController --> Frontend: Retorna erro + 404 Not Found)
+    Frontend --> Usuario: Exibe mensagem "Paciente não encontrado"
+end
+
+
+== Ler Paciente por ID ==
+Usuario -> Frontend: Solicita detalhes de um Paciente
+Frontend -> PacienteController: GET /pacientes/{id}
+PacienteController -> PacienteService: getPacienteById(id)
+alt Paciente encontrado
+    PacienteService --> PacienteController: Retorna Paciente 
+    PacienteController --> Frontend: Retorna Paciente + 200 OK
+    Frontend --> Usuario: Exibe Paciente
+else Paciente não encontrado
+    PacienteService --> PacienteController:  Retorna null (Optional)
+    PacienteController --> Frontend: Retorna erro + 404 Not Found
+    Frontend --> Usuario: Exibe mensagem "Paciente não encontrado"
+end
+
+== Listar todos os Pacientes ==
+Usuario -> Frontend: Solicita dados de todos os Pacientes
+Frontend -> PacienteController: GET /pacientes
+PacienteController -> PacienteService: getAll()
+PacienteService --> PacienteController: Retorna Lista de Pacientes 
+PacienteController --> Frontend: Retorna Lista de Pacientes + 200 OK
+Frontend --> Usuario: Exibe Pacientes
+
+@enduml
