@@ -19,7 +19,7 @@
 1 - Clonar seu (ou o meu) repositório:
 
 ```
-git clone https://github.com/acnaweb/study-api.git
+git clone https://github.com/acnaweb/study-<api-turma>.git
 cd study-api
 code  .
 ```
@@ -40,6 +40,10 @@ Perfil > Settings
   - Iniciar *Start Docker Service*
   - Clicar em *Docker Desktop*
 
+--- 
+### Guia de Markdown
+
+- https://www.markdownguide.org/cheat-sheet/
 
 --- 
 ### Databases (Docker)

@@ -1,4 +1,4 @@
-@startuml
+@startuml diagram
 
 skinparam linetype ortho
 
@@ -34,6 +34,8 @@ entity "consultas" as consulta {
   *status_consulta: enum
   quantidade_horas: number
   valor_consulta: number
+  *created_at: datetime
+  *updated_at: datetime
 }
 
 paciente ||--o{ consulta
