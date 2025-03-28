@@ -213,19 +213,7 @@ mvn spring-boot:run
 ### Cursos Alura
 
 #### Java e Persistencia
-- [jdbc-dao-persistenci](https://cursos.alura.com.br/course/jdbc-dao-persistencia)
-- [java-jpa-consultas-avancadas-performance-modelos-complexo](https://cursos.alura.com.br/course/java-jpa-consultas-avancadas-performance-modelos-complexos)
-- [servlets-fundamentos-programacao-web-jav](https://cursos.alura.com.br/course/servlets-fundamentos-programacao-web-java)
-- [servlet-autenticacao-autorizacao-mvc](https://cursos.alura.com.br/course/servlet-autenticacao-autorizacao-mvc)
-
-#### Microserviços
-- [microsservicos-padroes-projeto](https://cursos.alura.com.br/course/microsservicos-padroes-projeto)
-- [fundamentos-microsservicos-aprofundando-conceitos](https://cursos.alura.com.br/course/fundamentos-microsservicos-aprofundando-conceitos)
-- [microsservicos-implementando-java-spring](https://cursos.alura.com.br/course/microsservicos-implementando-java-spring)
-- [spring-boot-3-desenvolva-api-rest-java](https://cursos.alura.com.br/course/spring-boot-3-desenvolva-api-rest-java)
-- [spring-boot-aplique-boas-praticas-proteja-api-rest](https://cursos.alura.com.br/course/spring-boot-aplique-boas-praticas-proteja-api-rest)
-- [microservices-spring-cloud-service-registry-config-server](https://cursos.alura.com.br/course/microservices-spring-cloud-service-registry-config-server)
-- [microsservicos-pratica-iac-cdk-deploy-aws](https://cursos.alura.com.br/course/microsservicos-pratica-iac-cdk-deploy-aws)
+- https://cursos.alura.com.br/formacao-java-web-spring-boot
 
 #### Transformação Digital
 - [formacao-transformacao-digital](https://www.alura.com.br/formacao-transformacao-digital)
