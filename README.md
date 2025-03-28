@@ -212,7 +212,7 @@ mvn spring-boot:run
       
 ### Cursos Alura
 
-#### Java e Persistencia
+#### Formação Java Web
 - https://cursos.alura.com.br/formacao-java-web-spring-boot
 
 #### Transformação Digital
