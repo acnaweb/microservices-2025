@@ -40,16 +40,19 @@ Perfil > Settings
   - Iniciar *Start Docker Service*
   - Clicar em *Docker Desktop*
 
-6 - Subir Postgres
+6 - Subir MySQL
+
+- https://hub.docker.com/_/mysql
 
 ```sh
 docker run -d \
-    --name postgres \
+    --name mysql \
     --rm \
-    -e POSTGRES_USER=new_user \
-    -e POSTGRES_PASSWORD=my_pwd \
-    -p 5432:5432 \
-    postgres
+    -e MYSQL_ROOT_PASSWORD=root_pwd \
+    -e MYSQL_USER=new_user \
+    -e MYSQL_PASSWORD=my_pwd \
+    -p 3306:3306 \
+    mysql
 ```
 
 --- 
