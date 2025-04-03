@@ -40,6 +40,18 @@ Perfil > Settings
   - Iniciar *Start Docker Service*
   - Clicar em *Docker Desktop*
 
+6 - Subir Postgres
+
+```sh
+docker run -d \
+    --name postgres \
+    --rm \
+    -e POSTGRES_USER=new_user \
+    -e POSTGRES_PASSWORD=my_pwd \
+    -p 5432:5432 \
+    postgres
+```
+
 --- 
 ### Guia de Markdown
 
