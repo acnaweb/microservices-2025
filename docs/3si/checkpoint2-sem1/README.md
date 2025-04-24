@@ -58,7 +58,7 @@ Utilizar o [Spring Initializr](https://start.spring.io/) para criação do proje
 
 #### 2. (4 pontos) - Implementar os DTOs com base nas rotas e MER.
 
-#### 3. (2 pontos) - Modelas as entidades conforme o MER.
+#### 3. (2 pontos) - Modelar as entidades conforme o MER.
 
 Utilizar o README.md de https://github.com/acnaweb/study-apir/blob/feature/uc-service-crud/README.md como base.
 
