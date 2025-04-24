@@ -8,12 +8,13 @@
 - Entrega individual.
 - Observe o Modelo Entidade Relacionamento (MER) e siga as instruções a partir do item 1.
 
-   ![](/out/docs/3si/checkpoint2-sem1/mer/diagram.png)
+   ![](/out/docs/3si/checkpoint3-sem1/mer/diagram.png)
 
 Criar projeto Java usando Spring Boot:  
 
 ### Projeto 
 
+--- 
 Utilizar o [Spring Initializr](https://start.spring.io/) para criação do projeto.
 
 - Project: Maven Project  
@@ -32,7 +33,9 @@ Utilizar o [Spring Initializr](https://start.spring.io/) para criação do proje
   - Spring DevTools  
   - Documentação Swagger - https://springdoc.org/ 
 
-### Rotas (endpoints)
+---
+
+* Rotas (endpoints)
 
    * POST /pacientes
    * GET /pacientes?sort={asc, desc}
@@ -52,6 +55,8 @@ Utilizar o [Spring Initializr](https://start.spring.io/) para criação do proje
    * PUT /consultas/{id}
    * DELETE /consultas/{id} 
 
+* Consultas específicas
+   * GET /profissionais/{id}/stats
    * GET /pacientes/{id}/consultas?status={AGENDADA, REALIZADA, CANCELADA}&data_de=24-04-2025&data_ate=25-04-2025
    * GET /profissionais/{id}/consultas?status={AGENDADA, REALIZADA, CANCELADA}&data_de=24-04-2025&data_ate=25-04-2025   
    * GET /consultas?status={AGENDADA, REALIZADA, CANCELADA}&data_de=24-04-2025&data_ate=25-04-2025

@@ -34,8 +34,8 @@ entity "consulta" as consulta {
   *paciente_id : number <<FK>>
   *data_consulta: LocalDateTime
   *status_consulta: enum
-  quantidade_horas: number
-  valor_consulta: number
+  quantidade_horas: BigInteger
+  valor_consulta: BigDecimal
   *created_at: LocalDateTime
   *updated_at: LocalDateTime
 }
