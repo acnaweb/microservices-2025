@@ -8,7 +8,7 @@
 - Entrega individual.
 - Observe o Modelo Entidade Relacionamento (MER) e siga as instruções a partir do item 1.
 
-   ![](/out/docs/3si/checkpoint3-sem1/mer/diagram.png)
+   ![](/out/docs/3si/checkpoint2-sem1/mer/diagram.png)
 
 Criar projeto Java usando Spring Boot:  
 
