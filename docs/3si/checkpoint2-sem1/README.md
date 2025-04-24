@@ -46,6 +46,8 @@ Utilizar o [Spring Initializr](https://start.spring.io/) para criação do proje
    * PUT /profissionais/{id}
    * DELETE /profissionais/{id}   
 
+   (Opcional - não será considerado para avaliação)
+   
    * POST /consultas
    * GET /consultas
    * GET /consultas/{id}
