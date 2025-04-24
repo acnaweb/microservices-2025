@@ -1,0 +1,46 @@
+@startuml diagram
+
+title MER - Sistema de Agenda de Consultas
+
+skinparam linetype ortho
+
+entity "paciente" as paciente {
+  *id : number <<generated>>
+  --
+  *nome : text
+  endereco : text
+  bairro: text
+  email: text
+  telefone_completo: text
+  *data_nascimento: LocalDate
+  *created_at: LocalDateTime
+  *updated_at: LocalDateTime
+}
+
+entity "profissional" as profissional {
+  *id : number <<generated>>
+  --
+  *nome: text
+  *especialidade: text
+  valor_hora: number
+  *created_at: LocalDateTime
+  *updated_at: LocalDateTime
+}
+
+entity "consulta" as consulta {
+  *id : number <<generated>>
+  --
+  *profissional_id : number <<FK>>
+  *paciente_id : number <<FK>>
+  *data_consulta: LocalDateTime
+  *status_consulta: text
+  quantidade_horas: number
+  valor_consulta: number
+  *created_at: LocalDateTime
+  *updated_at: LocalDateTime
+}
+
+paciente ||--o{ consulta
+profissional ||--o{ consulta
+
+@enduml
