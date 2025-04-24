@@ -58,11 +58,9 @@ Utilizar o [Spring Initializr](https://start.spring.io/) para criação do proje
 
 ### Atividades 
 
-#### 1. (5 pontos) - Implementar as controllers com base nas rotas e MER.
+**1. (5 pontos)** - Implementar as controllers com base nas rotas e MER.
 
-#### 2. (5 pontos) - Implementar as queries conforme a necessidade a partir das rotas
-
-Utilizar o README.md de https://github.com/acnaweb/study-apir/blob/feature/uc-service-crud/README.md como base.
+**2. (5 pontos)** - Implementar as queries conforme a necessidade a partir das rotas.
 
 ### Instruções de Entrega  
 

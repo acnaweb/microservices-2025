@@ -60,8 +60,6 @@ Utilizar o [Spring Initializr](https://start.spring.io/) para criação do proje
 
 #### 3. (2 pontos) - Modelar as entidades conforme o MER.
 
-Utilizar o README.md de https://github.com/acnaweb/study-apir/blob/feature/uc-service-crud/README.md como base.
-
 ### Instruções de Entrega  
 
 #### a. GitHub (para cada membro)  
