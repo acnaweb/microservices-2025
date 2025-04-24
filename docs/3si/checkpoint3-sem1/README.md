@@ -52,8 +52,8 @@ Utilizar o [Spring Initializr](https://start.spring.io/) para criação do proje
    * PUT /consultas/{id}
    * DELETE /consultas/{id} 
 
-   * GET /pacientes/{id}/consultas
-   * GET /profissionais/{id}/consultas   
+   * GET /pacientes/{id}/consultas?status={AGENDADA, REALIZADA, CANCELADA}&data_de=24-04-2025&data_ate=25-04-2025
+   * GET /profissionais/{id}/consultas?status={AGENDADA, REALIZADA, CANCELADA}&data_de=24-04-2025&data_ate=25-04-2025   
    * GET /consultas?status={AGENDADA, REALIZADA, CANCELADA}&data_de=24-04-2025&data_ate=25-04-2025
 
 ### Atividades 
