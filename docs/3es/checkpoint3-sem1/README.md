@@ -29,18 +29,12 @@ Utilizar o [Spring Initializr](https://start.spring.io/) para criação do proje
   - Package Name: br.com.fiap.checkpoint3  
   - Packaging: Jar  
   - Java: 17/18  
-- Dependências:  
-  - Spring Web  
-  - Spring DevTools  
-  - Documentação Swagger - https://springdoc.org/  
+- Dependencias:
+   - Adicionar as dependencias necessárias para Web, Data, MySql e documentação com OpenAPI.
 
 #### 2. (4 pontos) - Implementar a(s) controller(s) e DTOs com base no Diagrama de Sequencia e MER.
 
-#### 3. (4 pontos) - Implementar a(s) services(s) com base no Diagrama de Sequencia e MER.
-
-#### 4. (1 ponto) - Criar a documentação para o repositório criado.
-
-Utilizar o README.md de https://github.com/acnaweb/study-apir/blob/feature/uc-service-crud/README.md como base.
+#### 3. (5 pontos) - Implementar a(s) services(s) com base no Diagrama de Sequencia e MER.
 
 ### Instruções de Entrega  
 
