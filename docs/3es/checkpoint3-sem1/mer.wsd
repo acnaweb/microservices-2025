@@ -1,0 +1,17 @@
+@startuml diagram
+
+title MER - Sistema de Agenda de Consultas
+
+skinparam linetype ortho
+
+entity "paciente" as paciente {
+  *id : number <<generated>>
+  --
+  *nome : text
+  endereco : text
+  bairro: text
+  email: text
+  telefone_completo: text
+}
+
+@enduml
