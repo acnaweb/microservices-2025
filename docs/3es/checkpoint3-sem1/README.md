@@ -46,4 +46,4 @@ Utilizar o [Spring Initializr](https://start.spring.io/) para criação do proje
 
    - Arquivo txt contendo a url do repositório com o código do projeto atualizado.
 
-> Repositório: https://github.com/<nome_do_usuario>>/checkpoint3  
+> Repositório: https://github.com/<nome_do_usuario>/checkpoint3  
