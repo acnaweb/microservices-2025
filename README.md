@@ -10,7 +10,7 @@
 | [Git](https://github.com/acnaweb/git) |
 | [API](https://github.com/acnaweb/api) |
 | [Tutorial Java API com Spring](https://github.com/acnaweb/java) |
-| [Docker]([https://github.com/acnaweb/study-apix](https://github.com/acnaweb/docker) |
+| [Docker](https://github.com/acnaweb/docker) |
 | [E-commerce](https://github.com/acnaweb/ecommerce) |
 | [Turma 3SIR](https://github.com/acnaweb/study-apir) |
 | [Turma 3ESW](https://github.com/acnaweb/study-apiw ) |
